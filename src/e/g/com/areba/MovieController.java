@@ -17,31 +17,10 @@ public class MovieController {
     String message;
 
     @RequestMapping(value="/{name}", method = RequestMethod.GET)
-    //public String getMovie(@PathVariable String name, ModelMap model) {
-    public void getMovie(HttpServletResponse response) {
-
-        //model.addAttribute("movie", name);
-        //model.addAttribute("message", this.message);
-
-        //return to jsp page, configured in mvc-dispatcher-servlet.xml, view resolver
-        //return "list";
-
-        //文字コードと出力するCSVファイル名を設定
-        response.setContentType("text/csv" + ";charset=utf-8");
-        response.setHeader("Content-Disposition", "attachment; filename=\"test.csv\"");
-
-        try {
-        	PrintWriter pw = response.getWriter();
-            //CSVファイル内部に記載する形式で文字列を設定
-            String outputString = "id" + "," + "name" + "," + "email" + "," + "password" + "," + "address" + "," + "telephone"
-                     + "\r\n";
-
-            //CSVファイルに書き込み
-            pw.print(outputString);
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public String getMovie(@PathVariable String name, ModelMap model) {
+    	model.addAttribute("movie", name);
+    	model.addAttribute("message", this.message);
+    	return "list";
     }
 
     public void setMessage(String message) {
