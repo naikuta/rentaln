@@ -1,4 +1,4 @@
-package e.g.com.areba;
+﻿package e.g.com.areba;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 @RequestMapping("/violet")
 public class MovieController {
-    //DI via Springあいうえお
+
     String message;
 
     @RequestMapping(value="/{name}", method = RequestMethod.GET)
