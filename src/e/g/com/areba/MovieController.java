@@ -1,8 +1,4 @@
-﻿package e.g.com.areba;
-import java.io.IOException;
-import java.io.PrintWriter;
-
-import javax.servlet.http.HttpServletResponse;
+package e.g.com.areba;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
