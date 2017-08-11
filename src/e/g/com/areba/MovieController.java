@@ -19,6 +19,7 @@ public class MovieController {
     	return "list";
     }
 
+    /*メッセージの設定*/
     public void setMessage(String message) {
         this.message = message;
     }
