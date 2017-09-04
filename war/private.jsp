@@ -7,13 +7,17 @@
           = blobstoreService.createUploadUrl("/upload");
 %>
 <html>
-<body>
-<form
-     action="<%= uploadUrl %>"
-     method="POST"
-     enctype="multipart/form-data">
-<input type="file" name="file1">
-<input type="submit" value="Upload">
-</form>
-</body>
+    <head>
+        <meta http-equiv="Content-Type"
+            content="text/html; charset=utf-8">
+        <title>Private Page</title>
+    </head>
+    <body>
+        <h1>Private Page</h1>
+        <div>※このページは、公開されていないプライベートなページです。</div>
+        <div style="font-weight: bold;">ユーザー：</div>
+        <br>
+        master
+        <a href="/logout">Logout</a>
+    </body>
 </html>
