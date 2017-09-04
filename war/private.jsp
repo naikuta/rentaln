@@ -15,6 +15,7 @@
         <div>※このページは、公開されていないプライベートなページです。</div>
         <div style="font-weight: bold;">ユーザー：</div>
         <br>
+        master
         <a href="/logout">Logout</a>
     </body>
 </html>
