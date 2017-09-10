@@ -12,10 +12,11 @@
     </head>
     <body>
         <h1>Private Page</h1>
-        <div>※このページは、公開されていないプライベートなページです。</div>
+        <div>※このページは、公開されていないプライベートなページです。ﾂ舀</div>
         <div style="font-weight: bold;">ユーザー：</div>
         <br>
-        master
+        <tabel>
+        </table>
         <a href="/logout">Logout</a>
     </body>
 </html>
