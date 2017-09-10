@@ -10,7 +10,7 @@
     <head>
         <meta http-equiv="Content-Type"
             content="text/html; charset=utf-8">
-        <title>Private Page</title>
+        <title>個人ページ</title>
     </head>
     <body>
         <h1>Private Page</h1>
