@@ -14,7 +14,6 @@
     </head>
     <body>
         <h1>Private Page</h1>
-        <div>※このページは、公開されていないプライベートなページです。</div>
         <div style="font-weight: bold;">ユーザー：</div>
         <br>
         <tabel>
