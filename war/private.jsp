@@ -15,7 +15,6 @@
     <body>
         <h1>Private Page</h1>
         <div style="font-weight: bold;">ユーザー：</div>
-        <br>
         <tabel>
         </table>
         <a href="/logout">Logout</a>
