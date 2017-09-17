@@ -13,7 +13,7 @@
         <title>個人のページ</title>
     </head>
     <body>
-        <h1>Private Page</h1>
+        <h1>追跡はずし/h1>
         <div style="font-weight: bold;">ユーザー：</div>
         <tabel>
         </table>
